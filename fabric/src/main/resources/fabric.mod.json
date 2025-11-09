@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${version}",
+  "name": "${mod_name}",
+  "description": "${description}",
+  "authors": [
+    "${mod_author}"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/letmecc",
+    "sources": "https://github.com/Amotassic/LetMeCC",
+    "issues": "https://github.com/Amotassic/LetMeCC/issues"
+  },
+  "license": "${license}",
+  "icon": "assets/letmecc/textures/item/let_me_cc.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.amotassic.letmecc.LetMeCC"
+    ],
+    "client": [
+      "com.amotassic.letmecc.LetMeCCClient"
+    ]
+  },
+  "mixins": [
+    "${mod_id}.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": "*",
+    "minecraft": ">=1.21-"
+  }
+}

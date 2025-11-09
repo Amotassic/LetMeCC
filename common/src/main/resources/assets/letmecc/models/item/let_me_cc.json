@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "letmecc:item/let_me_cc"
+  }
+}
